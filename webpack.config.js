@@ -10,6 +10,7 @@ module.exports = {
   },
   entry: [
     'webpack-hot-middleware/client?reload=true',
+    'regenerator-runtime/runtime.js',
     path.join(__dirname, 'app/index.js')
   ],
   output: {
